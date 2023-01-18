@@ -36,5 +36,36 @@ header > img {
     padding-left: 5em;
 }
 
+.intro {
+    display: flex;
+    background-color: #AFD6DF;
+    padding: 3em;
+    align-items: center;
+    padding-top: 8em;
+    justify-content: center;
+    gap: 50px;
+}
 
+.welcome {
+    max-width: 30em;
+    
+}
 
+#main-picture {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 100px palevioletred;
+}
+
+.preview {
+    flex: 1;
+}
+
+.quote {
+    flex: 1;
+}
+
+.price-quote {
+    flex: 1;
+}
