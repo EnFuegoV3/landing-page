@@ -69,6 +69,25 @@ h1 {
     box-shadow: 0 0 100px palevioletred;
 }
 
+button {
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 10px 0 10px;
+    box-shadow: 0 0 6px white;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+    background-size: 200%;
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    
+}
+
+button:hover {
+    font-size: 32px;
+}
+
 .preview {
     flex: 1;
 }
