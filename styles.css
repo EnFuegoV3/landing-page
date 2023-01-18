@@ -65,7 +65,7 @@ h1 {
 
 .welcome > p {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #main-picture {
@@ -87,11 +87,11 @@ button {
     color: white;
     background-size: 200%;
     background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
-    
 }
 
 button:hover {
-    font-size: 32px;
+    font-size: 26px;
+    box-shadow: 0 0 10px gold;
 }
 
 .preview {
