@@ -1,3 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Georgia Pro", Georgia, sans-serif;
+    
+}
+
+
+
+
+
+
+
 header {
     background-color: #AFD6DF;
 }
