@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Cour;
+    src: url(fonts/Courgette-Regular.ttf);
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -55,6 +60,7 @@ header > img {
 h1 {
     font-size: 45px;
     font-weight: 900;
+    font-family: Cour;
 }
 
 .welcome > p {
