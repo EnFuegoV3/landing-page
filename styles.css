@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: "Georgia Pro", Georgia, sans-serif;
+    font-family: Georgia, sans-serif;
     margin: auto;
     box-sizing: border-box;
 }
@@ -17,20 +17,21 @@ header {
 ul {
     display: flex;
     gap: 50px;
-    padding: 30em;
+    padding: 5em;
     list-style: none;
 }
 
 li > a {
     text-decoration: none;
     font-weight: 800;
+    font-size: 20px;
     color: whitesmoke;
     text-shadow: 0 0 3px palevioletred;
 
 }
 
 header > img {
-    max-height: 10em;
+    max-height: 12em;
     width: auto;
     margin-top: 15px;
     padding-left: 5em;
@@ -43,16 +44,26 @@ header > img {
     align-items: center;
     padding-top: 8em;
     justify-content: center;
-    gap: 50px;
+    gap: 80px;
 }
 
 .welcome {
     max-width: 30em;
-    
+    color: palevioletred;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.welcome > p {
+    font-size: 24px;
+    font-weight: 500;
 }
 
 #main-picture {
-    width: 350px;
+    width: 500px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 100px palevioletred;
