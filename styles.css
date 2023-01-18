@@ -2,15 +2,37 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Georgia Pro", Georgia, sans-serif;
-    
+    margin: auto;
 }
-
-
-
-
-
-
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 4em;
     background-color: #AFD6DF;
 }
+
+ul {
+    display: flex;
+    gap: 50px;
+    padding: 30em;
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    font-weight: 800;
+    color: whitesmoke;
+    text-shadow: 0 0 3px palevioletred;
+
+}
+
+header > img {
+    max-height: 10em;
+    width: auto;
+    margin-top: 15px;
+    padding-left: 5em;
+}
+
+
