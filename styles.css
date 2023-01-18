@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: "Georgia Pro", Georgia, sans-serif;
     margin: auto;
+    box-sizing: border-box;
 }
 
 header {
@@ -34,5 +35,6 @@ header > img {
     margin-top: 15px;
     padding-left: 5em;
 }
+
 
 
