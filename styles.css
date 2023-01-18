@@ -39,7 +39,7 @@ header > img {
     max-height: 12em;
     width: auto;
     margin-top: 15px;
-    padding-left: 5em;
+    padding-left: 2em;
 }
 
 .intro {
@@ -72,7 +72,7 @@ h1 {
     width: 500px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 0 100px palevioletred;
+    box-shadow: 0 0 100px palevioletred, 0 0 3px white;
 }
 
 button {
