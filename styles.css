@@ -41,6 +41,7 @@ header > img {
     width: auto;
     margin-top: 15px;
     padding-left: 2em;
+    max-width: 100%;
 }
 
 .intro {
@@ -75,6 +76,7 @@ h1 {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 100px palevioletred, 0 0 3px white;
+    max-width: 100%;
 }
 
 button {
@@ -126,6 +128,7 @@ h2 {
     width: 300px;
     height: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+    max-width: 100%;
 }
 
 .pops {
